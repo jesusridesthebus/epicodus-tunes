@@ -11,6 +11,7 @@ import { FirebaseObjectObservable } from 'angularfire2/database';
   styleUrls: ['./album-detail.component.css'],
   providers: [AlbumService]
 })
+
 export class AlbumDetailComponent implements OnInit {
   albumId: string;
   albumToDisplay;
