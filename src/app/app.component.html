@@ -13,7 +13,15 @@
   </div>
 </nav>
 
-<div class="container"></div>
-<h1>{{title}}</h1>
+<div class="container">
+  <h1>{{title}}</h1>
+  <router-outlet></router-outlet>
+</div>
 
-<router-outlet></router-outlet>
+
+
+<footer class="footer">
+  <div class="container">
+    <a class="text-muted" routerLink="admin">Admin</a>
+  </div>
+</footer>
