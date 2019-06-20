@@ -1,5 +1,9 @@
-nav {
-  background-color: #35f5fc !important;
+* {
+  background-color: #35f5fc;
+}
+
+.container {
+  background-color: #cefeff;
 }
 
 a {
